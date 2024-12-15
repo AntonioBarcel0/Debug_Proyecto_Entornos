@@ -40,5 +40,26 @@ Sabremos cómo se encuentra nuestra mascota mediante simbología que la represen
 - `ఠ_ఠ` (enfadado) **cuando el humor esté por debajo de 2**
 - `:-|` (normal) **resto de casos**
 <img width="1079" alt="Captura de pantalla 2024-12-15 a las 10 08 01" src="https://github.com/user-attachments/assets/1c779b21-2d2e-4735-8099-eaf7022b602c" />
-<img width="1080" alt="Captura de pantalla 2024-12-15 a las 10 08 20" src="https://github.com/user-attachments/assets/63a27ec7-95be-43f9-9f63-23c5b45b2004" />
+<img width="1081" alt="Captura de pantalla 2024-12-15 a las 10 08 46" src="https://github.com/user-attachments/assets/0eb3c4c0-ab90-4380-890e-55f1a4c4e23f" />
+
+### Depuramos con Eclipse
+Colocamos un breakpoint en la línea donde se modifica el atributo hunger, ya que este punto es clave porque el método play modifica múltiples atributos, y queremos verificar que todos se actualicen correctamente después de esta línea. Y otro breakpoint al comienzo del método getStatus() que permitirá observar qué valores tienen los atributos hunger, energy y mood cuando se evalúan las condiciones para determinar el estado del Tamagotchi.
+<img width="919" alt="Captura de pantalla 2024-12-15 a las 13 37 13" src="https://github.com/user-attachments/assets/cbcf7a7d-a788-44a6-a607-89d9c5b687ef" />
+
+### Inicio de la depuración
+
+En el play se verifica que:
+
+- hunger se incremente.
+- mood se incremente.
+- energy disminuya.
+<img width="738" alt="Captura de pantalla 2024-12-15 a las 13 42 44" src="https://github.com/user-attachments/assets/349f34d2-755f-4c2f-9b9f-80b3d74524e7" />
+<img width="729" alt="Captura de pantalla 2024-12-15 a las 13 43 05" src="https://github.com/user-attachments/assets/f1c0464d-b8d7-4e80-a41e-946b01587336" />
+
+En el getStatus se verifica que:
+
+- La lógica de evaluación de condiciones (energy <= 0, mood > 8, etc.) funcione correctamente según los valores actuales de los atributos.
+<img width="738" alt="Captura de pantalla 2024-12-15 a las 13 43 41" src="https://github.com/user-attachments/assets/07f35a20-da37-4c6b-82bd-305b4407f9a0" />
+
+
 
