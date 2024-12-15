@@ -11,15 +11,16 @@ En primer lugar he tenido que realizar el primer Kata, llamado "FizzBuzz!!", en 
 <img width="854" alt="Captura de pantalla 2024-12-15 a las 10 07 31" src="https://github.com/user-attachments/assets/5ab2bff6-af00-4b6c-a3d2-cc46ea3c5b12" />
 
 ### Depuramos con Eclipse
-A continuación, debemos probar los métodos de depuración con el IDE de Eclipse. He colocado dos breakpoints:
-1. Dentro del bucle 'for', justo al inicio del bloque para verificar los valores de i en cada iteración.
-2. Dentro de la condición (i % 3 == 0 && i % 5 == 0), para observar cuándo un número cumple con esta condición.
+A continuación, debemos probar los métodos de depuración con el IDE de Eclipse. 
+
 #### Colocación de los breakpoints
+He colocado dos breakpoints:
+1. Dentro del bucle 'for', justo al inicio del bloque para verificar los valores de i en cada iteración.
+2. Dentro de la condición (i % 3 == 0 && i % 5 == 0), para observar cuándo un número cumple con esta condición
 <img width="702" alt="Captura de pantalla 2024-12-15 a las 12 56 12" src="https://github.com/user-attachments/assets/2a4fec7d-19e3-4dbb-a98f-e87659586268" />
 
 #### Inicio de la depuración
 <img width="701" alt="Captura de pantalla 2024-12-15 a las 12 59 30" src="https://github.com/user-attachments/assets/b79a9a65-fb0c-41ae-9ce7-af9e0734451b" />
-
 <img width="707" alt="Captura de pantalla 2024-12-15 a las 13 00 03" src="https://github.com/user-attachments/assets/a25e2e35-fbca-453a-9e60-42a015495f34" />
 
 ## Tamagotchi
@@ -55,11 +56,10 @@ En el play se verifica que:
 - energy disminuya.
 <img width="738" alt="Captura de pantalla 2024-12-15 a las 13 42 44" src="https://github.com/user-attachments/assets/349f34d2-755f-4c2f-9b9f-80b3d74524e7" />
 <img width="729" alt="Captura de pantalla 2024-12-15 a las 13 43 05" src="https://github.com/user-attachments/assets/f1c0464d-b8d7-4e80-a41e-946b01587336" />
+<img width="738" alt="Captura de pantalla 2024-12-15 a las 13 43 41" src="https://github.com/user-attachments/assets/07f35a20-da37-4c6b-82bd-305b4407f9a0" />
 
 En el getStatus se verifica que:
 
 - La lógica de evaluación de condiciones (energy <= 0, mood > 8, etc.) funcione correctamente según los valores actuales de los atributos.
-<img width="738" alt="Captura de pantalla 2024-12-15 a las 13 43 41" src="https://github.com/user-attachments/assets/07f35a20-da37-4c6b-82bd-305b4407f9a0" />
-
-
+<img width="775" alt="Captura de pantalla 2024-12-15 a las 13 50 38" src="https://github.com/user-attachments/assets/9e74263a-fd4c-4fe8-ae2b-971bc0a53b99" />
 
